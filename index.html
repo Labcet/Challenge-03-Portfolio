@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Yellowtail&family=Rubik:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body onload="init()">
+    <main>
+        <div class="navbar">
+            <div class="table">
+                <div class="img">
+                    <a class="option" onclick="selectOption(0)">
+                        <img src="img/foto_zhildeer.jpg" alt="Foto">
+                    </a>
+                </div>
+                <li class="items">
+                    <ul>
+                        <a class="option" onclick="selectOption(1)">Sobre mi</a>
+                    </ul>
+                    <ul>
+                        <a class="option" onclick="selectOption(2)">Skills</a>
+                    </ul>
+                    <ul>
+                        <a class="option" onclick="selectOption(3)">Work</a>
+                    </ul>
+                    <ul>
+                        <a class="option" onclick="selectOption(4)">Contacto</a>
+                    </ul>
+                </li>
+                <li class="social">
+                    <ul><a href="https://www.linkedin.com/in/ernesto-zhildeer-chura-flores-2ba4991a3/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px"></i></a></ul>
+                    <ul><a href="https://github.com/Labcet" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a></ul>
+                    <ul><a href="https://twitter.com/ErnestoZhildeer" target="_blank"><i class="fa fa-twitter" style="font-size:24px"></i></a></ul>
+                </li>
+            </div>
+        </div>
+        <div class="content">
+            <div class="menu">
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                
+                    <ul class="menu__box">
+                        <li>
+                            <a class="menu__item" onclick="selectOption(0)">
+                                <img src="img/foto_zhildeer.jpg" alt="Foto">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="menu__item" onclick="selectOption(1)">Sobre mi</a>
+                        </li>
+                        <li>
+                            <a class="menu__item" onclick="selectOption(2)">Skills</a>
+                        </li>
+                        <li>
+                            <a class="menu__item" onclick="selectOption(3)">Work</a>
+                        </li>
+                        <li>
+                            <a class="menu__item" onclick="selectOption(4)">Contacto</a>
+                        </li><br><br>
+                        <li class="menu-social"><a href="https://www.linkedin.com/in/ernesto-zhildeer-chura-flores-2ba4991a3/" target="_blank"><i class="fa fa-linkedin" style="font-size:24px"></i></a></li>
+                        <li class="menu-social"><a href="https://github.com/Labcet" target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a></li>
+                        <li class="menu-social"><a href="https://twitter.com/ErnestoZhildeer" target="_blank"><i class="fa fa-twitter" style="font-size:24px"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <section id="portrait" class="section">
+                <div class="left-box">
+                    <div class="table">
+                        <h1 class="portrait-title"><span>H</span><span>o</span><span>l</span><span>a</span><span>,</span> <br> <span>s</span><span>o</span><span>y</span> <span>E</span><span>r</span><span>n</span><span>e</span><span>s</span><span>t</span><span>o</span> <span>Z</span><span>h</span><span>i</span><span>l</span><span>d</span><span>e</span><span>e</span><span>r</span></h1>
+                        <p class="portrait-p">Sofware Developer / Data Scientist</p>
+                        <button class="blink-button">
+                            <div class="blink">
+                                <span>Contactame!</span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <!--<div class="right-box">
+                    <div class="table">
+                        <img src="img/molde3.png" alt="Foto">
+                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_mm6zuolg.json"  background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
+                    </div>
+                </div>-->
+            </section>
+            <section id="about" class="section">
+                <div class="left-box">
+                    <div class="table">
+                        <h2 class="section-title">S<span>o</span>br<span>e</span> <span>m</span><span>i</span></h2>
+                        <p>Soy un Software Developer y Data Scientist ubicado en Peru. Estoy muy interesado en la creacion de soluciones tecnologicas sobre todo en web y tambien en la aplicacion de Inteligencia Aritficial para brindar productos interesantes de gran utilidad.</p><br>
+                        <p>Me fascinan los desafios y resolver problemas aplicando tecnologia, soy un gran apasionado por los datos y encontrar respuestas en ellos.</p><br>
+                        <p>Me encanta la musica y conocer nuevas personas asi como experiencias.</p>
+                        <div class="box-lottie-1-hidden">
+                            <lottie-player class="lottie_1_hidden" src="https://assets2.lottiefiles.com/packages/lf20_uzteewrg.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="table">
+                        <lottie-player class="lottie_1" src="https://assets2.lottiefiles.com/packages/lf20_uzteewrg.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="section">
+                <div class="left-box">
+                    <div class="table">
+                        <h2 class="section-title">S<span>k</span>il<span>l</span>s <span>&</span> <span>E</span>xp<span>e</span>ri<span>e</span><span>n</span>ci<span>a</span></h2>
+                        <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quidem corrupti labore ipsam, fugit ex asperiores aut illum odio molestias velit illo doloremque dolor nulla alias dolore quasi blanditiis aspernatur!</p>
+                        <br><br>
+                        <span>Front-end</span>
+                        <div class="skill-transition">
+                        </div>
+                        <span>Back-end</span>
+                        <div class="skill-transition">
+                        </div>
+                        <span>Data Science</span>
+                        <div class="skill-transition">
+                        </div>
+                        <span>Base de Datos</span>
+                        <div class="skill-transition">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="table">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="left-box">
+                                    <div class="table">
+                                        <img src="img/dsrp.png" alt="DSRP" width="200px">
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="table">
+                                        <h3>Data Science Research Peru</h3>
+                                        <p>Sep 2021 / Oct 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="left-box">
+                                    <div class="table">
+                                        <img src="img/khipu.png" alt="KHIPU" width="200px">
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="table">
+                                        <h3>Khipu</h3>
+                                        <p>Jul 2020 / Jul 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="left-box">
+                                    <div class="table">
+                                        <img src="img/osiptel.png" alt="OSIPTEL" width="200px">
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="table">
+                                        <h3>Osiptel</h3>
+                                        <p>Sep 2020 / Mar 2021</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="left-box">
+                                    <div class="table" style="text-align: center;">
+                                        <img src="img/unap.png" alt="UNAP" width="100px">
+                                    </div>
+                                </div>
+                                <div class="right-box">
+                                    <div class="table">
+                                        <h3>Universidad Nacional del Altiplano</h3>
+                                        <p>Sep 2019 / Dic 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="work" class="section">
+                <div class="left-box">
+                    <div class="table">
+                        <h2 class="section-title">Pr<span>o</span>d<span>u</span><span>c</span><span>t</span>os</h2>
+                        <div class="ag-container-shops">
+                            <div class="js-flickity-slider">
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_1.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://masterdatascience.online/wp-content/uploads/2020/02/706-1024x671.jpg" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="https://labcet.github.io/Challenge-02-Ahorcado/" target="_blank" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Juego del Ahorcado</span>
+                                                <span class="ag-shop-card-footer_products">Web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_2.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/5c40c0840d5f0.png" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="https://labcet.github.io/Linux-Permission-Generator/" target="_blank" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Generador de Permisos Linux</span>
+                                                <span class="ag-shop-card-footer_products">Web</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_3.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/5c40096210546.png" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="https://labcet.github.io/" target="_blank" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Encriptador</span>
+                                                <span class="ag-shop-card-footer_products">Web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_4.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/5ce7f5360446f.png" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="https://github.com/Labcet/Incuna" target="_blank" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Incuna</span> 
+                                                <span class="ag-shop-card-footer_products">Web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_5.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/5be47ff15177a.png" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="https://labcet.github.io/labcet/" target="_blank" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Labcet</span>
+                                                <span class="ag-shop-card-footer_products">Web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="js-carousel-cell">
+                                    <div class="ag-shop-card_box-wrap">
+                                        <div class="ag-shop-card_box">
+                                            <div class="ag-shop-card_body">
+                                                <div class="js-card-bg ag-card-bg" style="background-image: url(img/work_6.jpg);"></div>
+                                                <!--<a href="#" class="ag-shop-card-body_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/5be47ff15177a.png" alt="Falu" class="ag-shop-card-body_img"></a>-->
+                                            </div>
+                                            <div class="ag-shop-card_footer">
+                                                <a href="#" class="ag-shop-card-footer_link"><img src="https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/parallax-swipe/images/arrow.svg" class="ag-shop-card-footer_arrow"></a>
+                                                <span class="ag-shop-card-footer_title">Portafolio</span>
+                                                <span class="ag-shop-card-footer_products">Web</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="table">
+                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_lgsagyph.json"  background="transparent"  speed="1"  style="width: 700px; height: 700px;"  loop  autoplay></lottie-player>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto" class="section">
+                <div class="left-box">
+                    <div class="table">
+                        <h2 class="section-title"><span>C</span>o<span>n</span>t<span>a</span><span>c</span>tam<span>e</span></h2>
+                        <form action="">
+                            <input type="text" placeholder="Nombre"><br>
+                            <input type="email" placeholder="Email"><br>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea><br>
+                            <button class="blink-button">
+                                <div class="blink">
+                                    <span>Enviar!</span>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="right-box">
+                    <div class="table">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3728.8574565514064!2d-70.0187632448279!3d-15.850225276230951!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1657858539621!5m2!1ses-419!2spe" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js'></script>
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+</body>
+</html>
