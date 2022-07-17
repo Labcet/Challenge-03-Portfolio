@@ -910,3 +910,63 @@ form textarea{
         text-align: center;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .section{
+
+        padding: 10px 10px;
+    }
+
+    .menu__btn{
+
+        left: 30px;
+        top: 30px;
+    }
+
+    .menu img{
+
+        width: 100px;
+    }
+
+    .menu__item{
+
+        font-size: 20px;
+    }
+
+    .section-title{
+
+        font-size: 40px;
+    }
+
+    /* PORTRAIT */
+
+    #portrait h1{
+
+        font-size: 50px;
+    }
+
+    /* WORK */
+
+    .ag-shop-card_footer{
+
+        padding: 15px 15px;
+    }
+
+    .ag-shop-card-footer_link{
+
+        right: 15px;
+    }
+
+    .ag-shop-card_body{
+
+        width: 250px;
+    }
+
+    /* CONTACT */
+
+    #contacto form{
+
+        padding-right: 20px;
+    }
+}
